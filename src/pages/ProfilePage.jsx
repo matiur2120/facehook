@@ -42,11 +42,8 @@ const ProfilePage = () => {
   }
   return (
     <>
-      {/* Welcome, {state?.user?.firstName} {state?.user?.lastName} */}
       <ProfileInfo />
-
       <MyPosts />
-      {/* <p>You have {state?.posts.length} posts</p> */}
     </>
   );
 };
